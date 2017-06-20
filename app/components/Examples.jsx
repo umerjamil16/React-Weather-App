@@ -14,7 +14,8 @@ var ReactDOM = require("react-dom");
 var Examples = (props) => {
     return (
             <div>
-            <h4>Examples Component</h4>
+            <h4>Examples </h4>
+            <p>Welcome to Example page </p>
             </div>
         );
 };
