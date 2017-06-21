@@ -1,6 +1,9 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
 
+//Load Foundation
+require("style!css!foundation-sites/dist/foundation.min.css");
+$(document).foundation(); 
 // var About = React.createClass({
 //     render: function(){
 //         return (
