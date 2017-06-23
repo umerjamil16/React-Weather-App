@@ -16,7 +16,7 @@ var ReactDOM = require("react-dom");
 var WeatherMessage = (props)=>{
     return (
             <div>
-            <h3 className="text-center">Its {props.temp} in {props.location}</h3>
+            <h3 className="text-center">Its {props.temp}°F in {props.location}</h3>
             </div>
         );
 }
