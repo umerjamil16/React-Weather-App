@@ -34,7 +34,7 @@ $(document).foundation();
 var About = (props) => {
   return (
     <div >
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <p className="text-center">This app is developed by
         <a  href="https://github.com/umerjamil16">@umerjamil16</a>
          using React</p>

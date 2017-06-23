@@ -15,7 +15,7 @@ var {Link} = require("react-router");
 var Examples = (props) => {
   return (
     <div>
-      <h1 className="text-centered">Examples
+      <h1 className="text-centered page-title">Examples
       </h1>
       <p>Here are few examples locations to try out:
       </p>
@@ -23,7 +23,7 @@ var Examples = (props) => {
         <li>
           <Link to="/?location=Islamabad">Islamabad, Pakistan</Link>
         </li>
-        
+
         <li>
           <Link to="/?location=Florianópolis">Florianópolis, Brazil</Link>
         </li>
